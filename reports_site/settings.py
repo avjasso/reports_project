@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'products.apps.ProductsConfig',
     'profiles.apps.ProfilesConfig',
     'reports.apps.ReportsConfig',
-    'sales.apps.SalesConfig'
+    'sales.apps.SalesConfig',
 
     # 3rd Party Apps
     'crispy_forms',
