@@ -16,9 +16,17 @@
     <br>
 
     {% if sales_df %}
+        sales df
         {{ sales_df|safe }}
         <br>
+        positions_df
         {{ positions_df|safe }}
+        <br>
+        merged_df
+        {{ merged_df|safe }}
+        <br>
+        grouped by df
+        {{ df|safe }}
     {% else %}
         <h3>No data found.</h3>
     {% endif %}
